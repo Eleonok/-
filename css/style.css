@@ -1,0 +1,70 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #191919;
+    font-family: Arial;
+}
+
+#head
+{
+	
+	font-style: oblique;
+	color: #ff830f;
+	text-align: center;
+}
+
+.dish li
+{
+    list-style: none;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    width: 200px;
+    background: #ff830f;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border: 3px solid #ff830f;
+    transition: 0.5s;
+    border-radius: 30px;
+    user-select: none;
+}
+
+.dish li:hover
+{
+    letter-spacing: 1px;
+    border: solid #ff830f;
+    background: #191919;
+    color: #ff830f;
+}
+
+.dish li:active
+{
+    scale: 0.9;
+    letter-spacing: 0;
+}
+
+#fig
+{
+    height: auto;
+    padding: 20px;
+    color: #ffff;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 40px;
+    border: 4px solid #ff830f;
+    border-radius: 70px;
+    transition: 0.5s;
+		max-width: 80%;
+}
+
+#fig img
+{
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+	border-radius: 20px;
+}
